@@ -103,6 +103,10 @@
   margin: 0 10px; 
 }
 
+.character-section {
+  margin-bottom: 40px;
+}
+
 .flex {
   display: flex;
 }

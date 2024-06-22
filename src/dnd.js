@@ -169,7 +169,7 @@ function Dnd({ initialAttributes, initialSkills }) {
 
       {/* Render character sections dynamically */}
       {[...Array(characterCount)].map((_, index) => (
-        <div key={index}>
+        <div key={index} className="character-section">
           <h2>Character: {index + 1}</h2>
           <h3>Skill Check</h3>
           <div className="flex row pt-1" style={{ justifyContent: "center" }}>
