@@ -1,3 +1,9 @@
+export const initialSkillValue = 0;
+
+export const initialAttributeValue = 10;
+
+export const apiUrl = "https://recruiting.verylongdomaintotestwith.ca/api/{siddhishah222}/character";
+
 export const ATTRIBUTE_LIST = [
     'Strength',
     'Dexterity',
